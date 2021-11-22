@@ -1,0 +1,27 @@
+[
+    {
+        "emoji": "🦊",
+        "value": "fox",
+        "name": "Лиса"
+    },
+    {
+        "emoji": "🤡",
+        "value": "clown",
+        "name": "Клоуна"
+    },
+    {
+        "emoji": "🐺",
+        "value": "wolf",
+        "name": "Волк"
+    },
+    {
+        "emoji": "🐓",
+        "value": "rooster",
+        "name": "Курица"
+    },
+    {
+        "emoji": "🔥",
+        "value": "fire",
+        "name": "Огонь"
+    }
+]

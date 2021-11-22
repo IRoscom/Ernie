@@ -1,2 +1,2 @@
 # Ernie
-Ernie - Discord Captcha bot
+Ernie - Discord Verified bot

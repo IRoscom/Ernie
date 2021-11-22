@@ -1,0 +1,19 @@
+{
+  "name": "ernie",
+  "version": "1.0.0",
+  "description": "CaptchaBot Ernie",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "Roscom",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "jimp": "^0.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

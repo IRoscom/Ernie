@@ -1,0 +1,10 @@
+{
+    "guild": "GuildID",
+    "channel": "ChannelID",
+    "role": "RoleGuestID",
+    "verified": "RoleVerifiedID",
+    "color": "#FC3C0D",
+    "keys": {
+        "token": ""
+    }
+}

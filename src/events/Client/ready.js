@@ -1,19 +1,7 @@
-const { guild, channel, color } = require('../../../config.json');
-const { MessageEmbed, MessageButton, MessageActionRow } = require('discord.js');
+const { message } = require('../../../config.json');
+const sendMessage = require('../../helpers/sendMessage');
 
 module.exports = async (client) => {
-    const channelAction = client.guilds.cache.get(guild).channels.cache.get(channel)
+    if(message) new sendMessage(client).send()
     console.log('Запустился')
-    let embed = new MessageEmbed()
-        .setTitle('Для прохождения верификации нажмите на кнопку.')
-        .setColor(color)
-        .setFooter('Ernie'),
-        button = new MessageButton()
-            .setCustomId('captcha')
-            .setStyle('PRIMARY')
-            .setLabel('Пройти')
-            .setEmoji('🐺'),
-        row = new MessageActionRow()
-            .addComponents(button)
-    // channelAction.send({ embeds: [embed], components: [row] })
 }

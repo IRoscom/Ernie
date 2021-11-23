@@ -13,3 +13,15 @@ ___
 # Как запустить бота
 - Устанавливаем все необходимые библиотеки: `npm i`
 - Настраиваем [конфиг](https://github.com/IRoscom/Ernie/blob/main/config.json.example) и убираем в конце `.example`
+- Запускаем бота командой `npm start`
+
+| Название | Аргумент |
+|----------------|---------:|
+| guild | ИД вашей гильдии |
+| channel | ИД канала верификации |
+| role | ИД роли которую нужно выдать(Если не нужно, введите `null`) |
+| verified | ИД роли ограничивающий каналы |
+| color | Цвет для эмбеда |
+| token | токен бота |
+
+![Функция](https://raw.githubusercontent.com/IRoscom/Ernie/main/.github/media/Example.gif)

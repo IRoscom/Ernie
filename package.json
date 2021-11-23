@@ -1,7 +1,7 @@
 {
   "name": "ernie",
   "version": "1.1.0",
-  "description": "CaptchaBot Ernie",
+  "description": "VerifiedBot Ernie",
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",

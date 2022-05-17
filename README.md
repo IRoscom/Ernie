@@ -24,4 +24,9 @@ ___
 | color | Цвет для эмбеда |
 | token | токен бота |
 
+# Как получить сообщение?
+- Пишем slash-команду `/send Канал`
+
+![Пример](https://raw.githubusercontent.com/IRoscom/Ernie/Ernie-2.0/.github/media/Example.png)
+
 ![Функция](https://raw.githubusercontent.com/IRoscom/Ernie/main/.github/media/Example.gif)

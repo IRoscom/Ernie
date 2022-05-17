@@ -1,0 +1,13 @@
+{
+    "settings": {
+        "color": "",
+        "guild": "",
+        "roles": {
+            "role": null,
+             "verified": ""
+        }
+    },
+    "keys": {
+        "token": ""
+    }
+}

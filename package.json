@@ -1,19 +1,20 @@
 {
   "name": "ernie",
-  "version": "1.1.0",
-  "description": "VerifiedBot Ernie",
+  "version": "2.0.0",
+  "description": "Verified bot",
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js",
-    "dev": "nodemon ./src/index.js"
+    "test": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/IRoscom/Ernie"
   },
   "author": "Roscom",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.3.1",
-    "jimp": "^0.16.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
+    "chalk": "^4.1.2",
+    "discord.js": "^13.7.0"
   }
 }
